@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://redamjaswanth.vercel.app"),
+  metadataBase: new URL("https://ai-portfolio-pearl-alpha.vercel.app"),
 
   title: "Redam Jaswanth | AI & Machine Learning Engineer",
 
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
 
   authors: [{ name: "Redam Jaswanth" }],
   creator: "Redam Jaswanth",
+
+  verification: {
+    google: "zoDvf9p9Kre3uSRvPDCf6HIGBPdsAL2eZXdZJyKYtNQ",
+  },
 
   openGraph: {
     title: "Redam Jaswanth | AI & Machine Learning Engineer",
