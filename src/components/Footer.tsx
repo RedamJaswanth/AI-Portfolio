@@ -7,6 +7,7 @@ const footerLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
+  { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -44,6 +45,7 @@ export default function Footer() {
                 <p className="font-semibold text-white">
                   Redam Jaswanth
                 </p>
+
                 <p className="text-xs text-zinc-500">
                   AI & Machine Learning Engineer
                 </p>
@@ -82,6 +84,7 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-3 md:justify-end">
+              {/* GitHub */}
               <a
                 href="https://github.com/RedamJaswanth"
                 target="_blank"
@@ -92,6 +95,7 @@ export default function Footer() {
                 GH
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/redamjaswanth/"
                 target="_blank"
@@ -102,6 +106,7 @@ export default function Footer() {
                 in
               </a>
 
+              {/* Email */}
               <a
                 href="mailto:jaswanthredam@gmail.com"
                 aria-label="Email"
@@ -123,10 +128,9 @@ export default function Footer() {
           </p>
 
           <p>
-            Built with{" "}
-            <span className="text-violet-400">Next.js</span>
-            {" "}•{" "}
-            <span className="text-cyan-400">Framer Motion</span>
+            AI & Machine Learning Engineer{" "}
+            <span className="text-violet-400">•</span>{" "}
+            Generative AI Enthusiast
           </p>
         </div>
       </div>

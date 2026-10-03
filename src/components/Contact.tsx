@@ -142,9 +142,9 @@ export default function Contact() {
             }}
             className="mx-auto mt-6 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg"
           >
-            I'm open to AI opportunities, internships, collaborations,
-            interesting projects and ideas. If you're working on
-            something exciting, let's connect.
+            I'm open to AI and Machine Learning opportunities,
+            collaborations, interesting projects and innovative ideas.
+            If you're working on something exciting, let's connect.
           </motion.p>
 
           {/* Email CTA */}
@@ -170,8 +170,7 @@ export default function Contact() {
               whileHover={{
                 scale: 1.05,
                 y: -3,
-                boxShadow:
-                  "0 15px 45px rgba(139,92,246,0.2)",
+                boxShadow: "0 15px 45px rgba(139,92,246,0.2)",
               }}
               whileTap={{
                 scale: 0.97,

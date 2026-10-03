@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const education = [
   {
     number: "01",
-    period: "MCA",
+    period: "2023 - 2025",
     degree: "Master of Computer Applications",
     institution: "AITS",
     description:
@@ -19,7 +19,7 @@ const education = [
   },
   {
     number: "02",
-    period: "B.Sc",
+    period: "2020 - 2023",
     degree: "Bachelor of Science",
     institution: "Computer Science • Mathematics • Physics",
     description:
